@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Player Popup</title>
+    <script>
+
+        //http://www.shoutcheap.com/how-to-create-a-pop-up-player-for-shoutcast-and-icecast/
+
+        function popUp(URL, mediaURL) {
+        day = new Date();
+        id = day.getTime();
+        eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=1,width=600,height=150,left = 650,top = 375');");
+        sessionStorage.setItem('mediaURL', 'mediaURL');
+        }
+    
+</script>
+</head>
+<body>
+
+<p>Click the button to open a new window called "MsgWindow" with some text.</p>
+    <p>Google Chrome is the only browser working right now... :(</p>
+    <p>&#1777;</p>
+    <form>
+
+
+<input type=button value="Popup Player" onClick="javascript: popUp('popup-player.html','black_20150128_Everhart-Holm-VanderMaiden_4_Holm.mp3')">
+
+
+</form>
+<!--button onclick="myFunction()">Try it</!--button-->
+
+<script>
+/*function myFunction() {
+    var myWindow = window.open("", "MsgWindow", "width=200, height=100");
+    myWindow.document.write("<audio controls>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="horse.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+            </audio>
+            ");
+}*/
+</script>
+
+</body>
+</html>

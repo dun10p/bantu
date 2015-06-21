@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="keyboard.css">
+        <script type="text/javascript" src="keyboard.js" charset="UTF-8"></script>
+        <title>Unicode keyboard</title>
+        <style>
+             fieldset.f1 { 
+            position: absolute;
+            width:325px;
+            display: block;
+            top: 100px;
+            height:275px;
+            border: 2px groove (internal value);
+
+        </style>
+    </head>
+<body style="background-color:lightgrey" >
+     <p>This is some text</p>   
+    <input type="submit" name="submit" value="Load" onclick="loadHtml()" />This is text
+    <form name="searchData">
+        <fieldset id="Search" class="f1">
+            <!--legend>Glossary Search</legend>
+            English: <br><input type='text' name='searchEnglish' value=''><br>
+            <Bukusu:<br> <input type='text' name='searchBukusu' value=''>
+            Bukusu:<br><input type='text' name='searchBukusu' value='' class='keyboardInput'-->
+         
+        </fieldset>
+    </form>
+
+    <script>
+
+        document.getElementById('Search').innerHTML =
+            "<legend>Glossary Search</legend>" +
+            "English: <br><input type='text' name='searchEnglish' value=''><br>" +
+            "Bukusu:<br>";
+        loadHtml();
+
+        //http://www.w3schools.com/jsref/met_node_appendchild.asp
+        //http://www.greywyvern.com/code/javascript/keyboard
+        function loadHtml(){
+                 // <input type='text' name='searchBukusu' value=''>";
+                //"Bukusu:<br><input type='text' name='searchBukusu' value='' class='keyboardInput'>";
+                //"Bukusu:<br><input type='text' value='' class='keyboardInput'>";
+            console.log('Append Item');
+            var foo = document.createElement('input');
+            document.getElementById('Search').appendChild(foo);
+            VKI_attach(foo);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Log-In</title>
+   <link href="/~cs3380s15grp15/Site.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav id="nav01"></nav>
+    <nav id="nav02"></nav>
+
+	<div id="main">
+        <h1>Log-In</h1>
+        	<div align = "center">
+		<div id = "login">
+			<p>Please Login</p>
+            <!--input type="submit" name="submit" value="Submit" onclick="setLogin()"/-->
+			<form name="login" action="login1.php" method="post">
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username">
+				<br>
+				<br>
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password">
+				<br>
+				
+				<br>
+				<input type="submit" name="submit" value="Submit" onclick="setLogin()"/>
+			</form>
+                
+			
+		</div>
+        <div id="id01" ></div>
+	</div>
+	
+        
+        <footer id="foot01"></footer>
+	</div>
+
+<script>
+    function setLogin() {
+        var xmlhttpLogin = new XMLHttpRequest();
+        var url1 = "login1.php";
+
+        xmlhttpLogin.onreadystatechange = function () {
+            if (xmlhttpLogin.readyState == 4 && xmlhttpLogin.status == 200) {
+                document.getElementById("id01").innerHTML = xmlhttpLogin.responseText;
+            }
+        }
+        xmlhttpLogin.open("POST", url1, true);
+        xmlhttpLogin.send();
+    }
+
+</script>
+<script src="/~cs3380s15grp15/Script.js"></script>
+
+</body>
+</html> 

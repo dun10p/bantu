@@ -1,0 +1,2913 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisioDocument>
+	<DocumentProperties>
+		<Title></Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="Bukusu Linquistic ERD" NameU="Bukusu Linquistic ERD">
+			<Layer IX="0">
+				<Name>Connector</Name>
+				<NameUniv>Connector</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Layer IX="1">
+				<Name>Container</Name>
+				<NameUniv>Container</NameUniv>
+				<Visible>1</Visible>
+			</Layer>
+			<Shapes>
+				<Shape ID="602" UniqueID="{926B6495-ABC4-4966-86FF-8DEBE21CEAC2}" Name="Belt" NameU="Belt" Master="15">
+					<Text>Group 15: Bukusu Linguistic Database ERD
+Group Members: Jeffrey Friel, Lizzy White, Ben Stockman, Ken Steimel, Kyle Busch</Text>
+					<XForm>
+						<PinX Unit="IN_F">12.250000000000000</PinX>
+						<PinY Unit="IN_F">10.685198885091150</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>1</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="1" UniqueID="{27D98401-266C-4AFF-B899-E9436B7FEECC}" Name="Entity" NameU="Entity" Master="7">
+					<Text>ROOT</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">18.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{35C508D7-BAD3-4222-A945-0563AD38C6AC}" Name="Sheet.4" NameU="Sheet.4">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">19.635568192545570</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{FD4F56AC-91E5-4F2C-9317-1BC4A9EC1829}" Name="Primary Key Attribute" NameU="Primary Key Attribute" Master="8">
+					<Text>rootID: serial</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">19.003598493787969</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{A2A3A172-A17F-4FBA-B002-1E8FCF76CC94}" Name="Sheet.6" NameU="Sheet.6">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">19.003598493787969</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{9511BDA4-3A39-4AC3-8294-7A8B3B841565}" Name="Sheet.7" NameU="Sheet.7">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">19.003598493787969</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{EE04FB0D-50A2-4545-9A5B-3086F028865E}" Name="Primary Key Separator" NameU="Primary Key Separator" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">18.809128795030368</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{DEC6B8D0-16B6-42D1-8042-DE0C535B0DAC}" Name="Attribute" NameU="Attribute" Master="10">
+					<Text>root: varchar(40) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">18.614659096272778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="10" UniqueID="{3492AD9A-CD22-4DDD-8BAB-F1C7AD06C889}" Name="Sheet.10" NameU="Sheet.10">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">18.614659096272778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="11" UniqueID="{E40C561A-E798-4C1E-97EB-5B5167B7499A}" Name="Sheet.11" NameU="Sheet.11">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">18.614659096272778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="12" UniqueID="{D9AC548D-8E2F-4012-A23F-F7FC1AB33F00}" Name="Attribute.12" NameU="Attribute.12" Master="10">
+					<Text>rootLength: smallint NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">18.225719698757590</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="13" UniqueID="{0AAADE14-65D2-4D3C-9094-3D51E3E30337}" Name="Sheet.13" NameU="Sheet.13">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">18.225719698757590</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="14" UniqueID="{BA4BAF8D-CA56-42A3-A6AC-0593C8164FBB}" Name="Sheet.14" NameU="Sheet.14">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">18.225719698757590</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="15" UniqueID="{EEFD0C97-7909-446B-A470-68D836BCCC01}" Name="Attribute.15" NameU="Attribute.15" Master="10">
+					<Text>initialSound:varchar(10)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">17.836780301242399</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="16" UniqueID="{5ECF1DF5-069C-46A1-AB8C-0280354B2188}" Name="Sheet.16" NameU="Sheet.16">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">17.836780301242399</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="17" UniqueID="{77A3EAAD-8E6B-4C57-9D73-CC69589FE935}" Name="Sheet.17" NameU="Sheet.17">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">17.836780301242399</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="21" UniqueID="{73538861-D16A-4E91-9E72-CFEDA5347130}" Name="Entity.21" NameU="Entity.21" Master="7">
+					<Text>INITIAL_SOUND</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.328125000000000</PinX>
+						<PinY Unit="IN_F">19.107689397515191</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="24" UniqueID="{FAFE1A41-7BE4-4C6A-BE2F-2AE50408E342}" Name="Sheet.24" NameU="Sheet.24">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.328125000000000</PinX>
+						<PinY Unit="IN_F">19.715378795030382</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{4E021D7B-C36A-459D-9208-43614F1BC65C}" Name="Primary Key Attribute.25" NameU="Primary Key Attribute.25" Master="8">
+					<Text>initialSound: varchar(10)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.328125000000000</PinX>
+						<PinY Unit="IN_F">19.083409096272810</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="26" UniqueID="{3DD69B75-0F42-4931-88AB-03995481415C}" Name="Sheet.26" NameU="Sheet.26">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">19.083409096272810</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="27" UniqueID="{F8CF06AD-364C-47DE-BF12-9312E9A53030}" Name="Sheet.27" NameU="Sheet.27">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">19.083409096272810</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="28" UniqueID="{A240CF13-9F6E-44A0-9E96-9751FDA99E6B}" Name="Primary Key Separator.28" NameU="Primary Key Separator.28" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">11.328125000000000</PinX>
+						<PinY Unit="IN_F">18.888939397515212</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{871B0610-18C2-474C-B7F3-4D639A6CC5B7}" Name="Attribute.29" NameU="Attribute.29" Master="10">
+					<Text>initialSoundDescr: varchar(250)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.328125000000000</PinX>
+						<PinY Unit="IN_F">18.694469698757612</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{DB7CFF5F-2F10-4611-9719-C009134BF5F8}" Name="Sheet.30" NameU="Sheet.30">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">18.694469698757612</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{F274C000-C67F-406F-AD6D-897B40DE746B}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">18.694469698757612</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="35" UniqueID="{29BBCCCB-5A43-49BB-ACA3-77D2DF2B8553}" Name="Relationship" NameU="Relationship" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.468750000000004</PinX>
+						<PinY Unit="IN_F">18.460094698757604</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="36" UniqueID="{C58BADC4-A483-4E8B-A152-C52879437ABD}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.072847610044112</PinX>
+						<PinY Unit="IN">17.907490979361054</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{6D4F3388-D2BC-4620-A84B-60D782E7B1C5}" Name="Sheet.37" NameU="Sheet.37">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.072847610044112</PinX>
+						<PinY Unit="IN">17.766069623123741</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{389ED580-5979-4D94-B299-7347FB92FB7B}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.864652389955889</PinX>
+						<PinY Unit="IN">19.154119774391464</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{021A7172-8CB6-46F7-8E27-E7D63908E93D}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.864652389955889</PinX>
+						<PinY Unit="IN">19.012698418154155</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="125" UniqueID="{FE579669-BA92-40B0-BE6E-6A22A12A2F55}" Name="Entity.125" NameU="Entity.125" Master="7">
+					<Text>WORDS</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">13.058674217393655</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="128" UniqueID="{BB18D8CA-5438-4B23-AA37-F86F3A50987B}" Name="Sheet.128" NameU="Sheet.128">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">16.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="129" UniqueID="{864539CB-E647-4715-9BA6-DE9E7E7F28AB}" Name="Primary Key Attribute.129" NameU="Primary Key Attribute.129" Master="8">
+					<Text>wordID: serial</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">15.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="130" UniqueID="{5BB66021-F63E-41CD-B0EB-560D1BE12B10}" Name="Sheet.130" NameU="Sheet.130">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">15.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="131" UniqueID="{8618C62C-5A25-472A-8FD2-57D6DCD0D85B}" Name="Sheet.131" NameU="Sheet.131">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">15.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="132" UniqueID="{ACC04DB8-BB2B-4B4B-8290-F1A1600F567E}" Name="Primary Key Separator.132" NameU="Primary Key Separator.132" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">15.173560602484800</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="133" UniqueID="{489717D1-B0C3-4408-AACF-F3841C37BF13}" Name="Attribute.133" NameU="Attribute.133" Master="10">
+					<Text>wordForm: varchar(20)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">14.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="134" UniqueID="{9C7E6E87-58DC-422A-A2DB-5429553F74A0}" Name="Sheet.134" NameU="Sheet.134">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">14.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="135" UniqueID="{C9909E15-E1A7-4408-8FF3-3B58AA54D533}" Name="Sheet.135" NameU="Sheet.135">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">14.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="136" UniqueID="{4F3684AD-72F2-4887-9C64-812CCB9B171C}" Name="Attribute.136" NameU="Attribute.136" Master="10">
+					<Text>morpheme2: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="137" UniqueID="{7293B864-909A-408D-B598-50E62BE6E96B}" Name="Sheet.137" NameU="Sheet.137">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="138" UniqueID="{5C99A018-01D5-45B9-AF34-88C045E71421}" Name="Sheet.138" NameU="Sheet.138">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="163" UniqueID="{D867C87F-37B7-4067-B736-DE667FDEF8B4}" Name="Entity.163" NameU="Entity.163" Master="7">
+					<Text>ALLOMORPHS</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">13.447613614908857</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="166" UniqueID="{AB448BB0-199B-43D9-BEB0-2CC82B7856AB}" Name="Sheet.166" NameU="Sheet.166">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">16.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="167" UniqueID="{139962B2-FD4F-4391-9374-555D0BD78269}" Name="Primary Key Attribute.167" NameU="Primary Key Attribute.167" Master="8">
+					<Text>morphemeID: serial</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">14.979090903727213</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="168" UniqueID="{E3368543-CA74-42BD-925B-B90B90362CEC}" Name="Sheet.168" NameU="Sheet.168">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">14.979090903727213</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="169" UniqueID="{249B1B89-D00B-425F-8DBC-EF8C513F0D7D}" Name="Sheet.169" NameU="Sheet.169">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">14.979090903727213</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="170" UniqueID="{6E3E5059-2296-4939-A633-C51FF072BDF2}" Name="Primary Key Separator.170" NameU="Primary Key Separator.170" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">14.784621204969618</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="174" UniqueID="{E2E723D2-C08A-4A8F-B357-9A634CD968F0}" Name="Attribute.174" NameU="Attribute.174" Master="10">
+					<Text>form: varchar(10): NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212022</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="175" UniqueID="{1C7BBD1D-10D3-469E-9AAE-447BAF483361}" Name="Sheet.175" NameU="Sheet.175">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212022</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="176" UniqueID="{E329AB09-0753-476B-A34A-88141D7CE930}" Name="Sheet.176" NameU="Sheet.176">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">14.590151506212022</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="177" UniqueID="{AC878216-2E80-414E-8703-4060B2BFBF1D}" Name="Attribute.177" NameU="Attribute.177" Master="10">
+					<Text>rule: varchar(40)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="178" UniqueID="{AF70861E-9FD8-4163-86CE-80B82BF8B469}" Name="Sheet.178" NameU="Sheet.178">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="179" UniqueID="{356C72AB-C6DE-4503-8ED7-F5D8AEF301FB}" Name="Sheet.179" NameU="Sheet.179">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">14.201212108696831</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="181" UniqueID="{1A11A734-E3B6-4179-99AD-467901EA6BB4}" Name="Attribute.181" NameU="Attribute.181" Master="10">
+					<Text>description: text NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">13.812272711181640</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="182" UniqueID="{A2AB98D7-B084-4682-91D5-DB0E6454AC84}" Name="Sheet.182" NameU="Sheet.182">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">13.812272711181640</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="183" UniqueID="{C4127910-B51D-48F9-8FEC-DFC8606B9DD9}" Name="Sheet.183" NameU="Sheet.183">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">13.812272711181640</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="184" UniqueID="{4D340D35-E0AB-4830-914B-D399717C1F94}" Name="Attribute.184" NameU="Attribute.184" Master="10">
+					<Text>initialSound: varchar(2)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">13.423333313666449</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="185" UniqueID="{728D9D39-004D-4279-9C72-16D08A394138}" Name="Sheet.185" NameU="Sheet.185">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">13.423333313666449</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="186" UniqueID="{A0B7C132-65DB-4970-8163-F5B23499AFD9}" Name="Sheet.186" NameU="Sheet.186">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">13.423333313666449</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="190" UniqueID="{5C4AE67D-F230-4C34-BD75-E0A9FF91830A}" Name="Attribute.190" NameU="Attribute.190" Master="10">
+					<Text>followingSound: varchar(2)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">13.034393916151258</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="191" UniqueID="{0F876CE2-0A3F-4B3F-9B32-8488833FD5DB}" Name="Sheet.191" NameU="Sheet.191">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">13.034393916151258</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="192" UniqueID="{129361DD-5850-4D7F-B9E0-AA34CC18D87A}" Name="Sheet.192" NameU="Sheet.192">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">13.034393916151258</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="213" UniqueID="{DCCEA052-25BA-46B6-AE83-F73794E23F10}" Name="Attribute.213" NameU="Attribute.213" Master="10">
+					<Text>morpheme1: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="214" UniqueID="{1B365493-5EC5-4E24-8999-B07C3F209858}" Name="Sheet.214" NameU="Sheet.214">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="215" UniqueID="{8672E8BA-7E93-43EB-9851-6308CFDEDECB}" Name="Sheet.215" NameU="Sheet.215">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="216" UniqueID="{99AFC3C4-D068-4801-A0E9-0C150F9F2A6F}" Name="Entity.216" NameU="Entity.216" Master="7">
+					<Text>GLOSS_TO_RULE</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">8.552159096272787</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="219" UniqueID="{FD0BB185-E0F0-45F0-A6D5-8960C9914764}" Name="Sheet.219" NameU="Sheet.219">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">9.354318192545573</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="220" UniqueID="{FB7EC47F-004F-4C23-BBA9-06B9BAA6BC75}" Name="Primary Key Attribute.220" NameU="Primary Key Attribute.220" Master="8">
+					<Text>glossToRuleID: serial</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">8.722348493787978</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="221" UniqueID="{21957CAD-47DD-4444-AA7D-918478760BF2}" Name="Sheet.221" NameU="Sheet.221">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.843750000000000</PinX>
+						<PinY Unit="IN_F">8.722348493787978</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="222" UniqueID="{18B72D59-37C5-4AEC-A22A-CF338D0F670C}" Name="Sheet.222" NameU="Sheet.222">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.954750000000001</PinX>
+						<PinY Unit="IN_F">8.722348493787978</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="223" UniqueID="{B5637AEA-D960-4715-8F03-6DC7558DA055}" Name="Primary Key Separator.223" NameU="Primary Key Separator.223" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">8.527878795030382</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="224" UniqueID="{25FA0873-EA86-4998-9294-9E73F23AF79C}" Name="Attribute.224" NameU="Attribute.224" Master="10">
+					<Text>rule: varchar(40)</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">8.333409096272787</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="225" UniqueID="{53BC6F02-19CC-49A8-9E5C-14F82BA1ACED}" Name="Sheet.225" NameU="Sheet.225">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.843750000000000</PinX>
+						<PinY Unit="IN_F">8.333409096272787</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="226" UniqueID="{05208A31-CCD2-44EF-8DD0-5E8E4042BD61}" Name="Sheet.226" NameU="Sheet.226">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.954750000000001</PinX>
+						<PinY Unit="IN_F">8.333409096272787</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="227" UniqueID="{6F904B3C-BB05-4521-A240-441D68EA8D20}" Name="Attribute.227" NameU="Attribute.227" Master="10">
+					<Text>glossID: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">7.944469698757596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="228" UniqueID="{0168F06C-726D-48F1-9370-7CE9BFD6B0E6}" Name="Sheet.228" NameU="Sheet.228">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.843750000000000</PinX>
+						<PinY Unit="IN_F">7.944469698757596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="229" UniqueID="{1303A2F2-0E45-4163-8933-3B1BD696CD7F}" Name="Sheet.229" NameU="Sheet.229">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.954750000000001</PinX>
+						<PinY Unit="IN_F">7.944469698757596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="230" UniqueID="{D2ADD0AE-04C3-413F-A456-AC8E81821D15}" Name="Entity.230" NameU="Entity.230" Master="7">
+					<Text>RULE_NOTES</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">11.246628795030382</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="233" UniqueID="{700D9FC4-C942-46B7-A3F0-8FDA73B752FA}" Name="Sheet.233" NameU="Sheet.233">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">12.243257590060765</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="237" UniqueID="{8861475B-9DF1-4E41-BAD4-8D2468E28E45}" Name="Primary Key Separator.237" NameU="Primary Key Separator.237" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">11.805757590060855</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="238" UniqueID="{DFAD6CBE-1DD1-46EC-96CA-47CB2E013EC2}" Name="Attribute.238" NameU="Attribute.238" Master="10">
+					<Text>rule: varchar(40)</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">11.222348493788068</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="239" UniqueID="{5602CB16-3048-4CDE-A76A-B8A725322908}" Name="Sheet.239" NameU="Sheet.239">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">11.222348493788068</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="240" UniqueID="{0E963485-61E6-4478-BCE3-14CE8F063BC3}" Name="Sheet.240" NameU="Sheet.240">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">11.222348493788068</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="241" UniqueID="{815C0C50-5954-4A1C-A753-BF03BDEBBD88}" Name="Attribute.241" NameU="Attribute.241" Master="10">
+					<Text>note: text NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">10.444469698757686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="242" UniqueID="{F54AE2F6-DF3E-4C79-9E1C-0C52E4D548BE}" Name="Sheet.242" NameU="Sheet.242">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">10.444469698757686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="243" UniqueID="{CA4834EB-4676-4150-8193-AB1C2391AE44}" Name="Sheet.243" NameU="Sheet.243">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">10.444469698757686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="291" UniqueID="{2C1F3244-5ACF-4FBA-9C98-A9CF75F845D5}" Name="Attribute.291" NameU="Attribute.291" Master="10">
+					<Text>sigma: smallint</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">12.645454518636067</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="292" UniqueID="{A04B2321-0009-4A09-9B77-C4AD488434C1}" Name="Sheet.292" NameU="Sheet.292">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">12.645454518636067</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="293" UniqueID="{22E6D987-9D8A-4DD8-8F98-A544BEAEA56B}" Name="Sheet.293" NameU="Sheet.293">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">12.645454518636067</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="294" UniqueID="{86CE6244-8286-4D2E-BC3A-C62B8A26B73D}" Name="Attribute.294" NameU="Attribute.294" Master="10">
+					<Text>sigma2: smallint</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">11.867575723605686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="295" UniqueID="{71804B2A-A3C8-41F6-A060-FB2E5B7ED6F3}" Name="Sheet.295" NameU="Sheet.295">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">11.867575723605686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="296" UniqueID="{AA560627-8EC4-4BED-A4AE-D1382D885363}" Name="Sheet.296" NameU="Sheet.296">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">11.867575723605686</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="297" UniqueID="{215DF65F-63B4-41FB-B67F-42422466ACE6}" Name="Attribute.297" NameU="Attribute.297" Master="10">
+					<Text>sigma1: smallint</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">12.256515121120875</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="298" UniqueID="{8F296DD7-E478-4805-908A-9E084F912F8C}" Name="Sheet.298" NameU="Sheet.298">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">12.256515121120875</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="299" UniqueID="{3EFFD814-2E41-40EB-A0D7-B0447681575A}" Name="Sheet.299" NameU="Sheet.299">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">12.256515121120875</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="300" UniqueID="{0726BF2E-68FA-4D7F-96D4-DEAAA5E686BB}" Name="Attribute.300" NameU="Attribute.300" Master="10">
+					<Text>tonal: boolean</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">11.478636326090495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="301" UniqueID="{6E63BCBA-5607-450D-998C-F3A1D44CFD15}" Name="Sheet.301" NameU="Sheet.301">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">11.478636326090495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="302" UniqueID="{43C062CB-D8F1-4185-BD52-52D3E176DDF5}" Name="Sheet.302" NameU="Sheet.302">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">11.478636326090495</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="303" UniqueID="{78ADC642-A809-4896-905B-33238B7BE010}" Name="Attribute.303" NameU="Attribute.303" Master="10">
+					<Text>segmental: boolean</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">11.089696928575304</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="304" UniqueID="{DC98DFE7-37A3-4594-9560-A32C301EFC0F}" Name="Sheet.304" NameU="Sheet.304">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">11.089696928575304</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="305" UniqueID="{8E6C3954-9401-4427-BB5D-60607664BA10}" Name="Sheet.305" NameU="Sheet.305">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">11.089696928575304</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="306" UniqueID="{811AA294-83E6-41DD-98A1-01A07BD3E1F9}" Name="Attribute.306" NameU="Attribute.306" Master="10">
+					<Text>userID: varchar(30) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">10.833409096272877</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="307" UniqueID="{BB17067E-93B2-4D6D-ACDD-DD3AB0D555D3}" Name="Sheet.307" NameU="Sheet.307">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">10.833409096272877</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="308" UniqueID="{A677D439-AD48-4D8E-8073-CA871A739DB2}" Name="Sheet.308" NameU="Sheet.308">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">10.833409096272877</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="309" UniqueID="{65E522A3-4B39-49A7-852D-3EFE897DB20D}" Name="Primary Key Attribute.309" NameU="Primary Key Attribute.309" Master="8">
+					<Text>dtTimeStamp: TIMESTAMP NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.031250000000000</PinX>
+						<PinY Unit="IN_F">11.611287891303260</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="310" UniqueID="{F86B9C46-E409-4647-800E-68684B5D7299}" Name="Sheet.310" NameU="Sheet.310">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">11.611287891303260</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="311" UniqueID="{CB7E451C-5FE8-4260-91CC-40D42E2892F0}" Name="Sheet.311" NameU="Sheet.311">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">11.611287891303260</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="351" UniqueID="{32EF7A64-18E7-42BF-B440-8727D8727613}" Name="Entity.351" NameU="Entity.351" Master="7">
+					<Text>USERS</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">18.719431866454695</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="354" UniqueID="{22ADEFA1-2880-40C9-8D14-17617685404F}" Name="Sheet.354" NameU="Sheet.354">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">19.521590962727483</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="355" UniqueID="{18195238-970F-4635-B4B1-4E27D3E5C7CB}" Name="Primary Key Attribute.355" NameU="Primary Key Attribute.355" Master="8">
+					<Text>userID: varchar(30)</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">18.889621263969655</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="356" UniqueID="{12C67BCC-0477-4872-A076-BF41FFE944BF}" Name="Sheet.356" NameU="Sheet.356">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">18.889621263969655</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="357" UniqueID="{04C0C727-D7A7-46F0-854B-ECB67A68306C}" Name="Sheet.357" NameU="Sheet.357">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">18.889621263969655</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="358" UniqueID="{15F10287-2AEB-4F43-B63B-6757929F98D9}" Name="Primary Key Separator.358" NameU="Primary Key Separator.358" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">18.695151565212054</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="359" UniqueID="{ACAF495F-487E-4E0C-A1B3-5ACBCFC5E4F3}" Name="Attribute.359" NameU="Attribute.359" Master="10">
+					<Text>lastName: varchar(30) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">18.500681866454457</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="360" UniqueID="{F00263CA-33A2-48FD-92BB-8D6A9BC4AB13}" Name="Sheet.360" NameU="Sheet.360">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">18.500681866454457</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="361" UniqueID="{3F75E53F-1D6E-47F6-9D6D-4E196773FC34}" Name="Sheet.361" NameU="Sheet.361">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">18.500681866454457</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="362" UniqueID="{33336721-5D17-40DB-ABBE-1EE94FF1DC7D}" Name="Attribute.362" NameU="Attribute.362" Master="10">
+					<Text>firstName: varchar(30) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.125000000000000</PinX>
+						<PinY Unit="IN_F">18.111742468939266</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="363" UniqueID="{B07D5D7F-025E-450D-B77E-063F6AC00638}" Name="Sheet.363" NameU="Sheet.363">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">18.111742468939266</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="364" UniqueID="{27005487-185A-49A9-9BC1-7A86E957D0D4}" Name="Sheet.364" NameU="Sheet.364">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">18.111742468939266</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="365" UniqueID="{4F27C7B8-763D-49D6-A588-9BA6D48CB003}" Name="Entity.365" NameU="Entity.365" Master="7">
+					<Text>USER_INFO</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.281250000000000</PinX>
+						<PinY Unit="IN_F">16.250000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="368" UniqueID="{F259E68B-6AF9-44AF-AA4C-7F42386BB3FD}" Name="Sheet.368" NameU="Sheet.368">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.281250000000000</PinX>
+						<PinY Unit="IN_F">16.857689397515195</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="369" UniqueID="{64FACBA3-7629-4787-85CA-890801C0931E}" Name="Primary Key Attribute.369" NameU="Primary Key Attribute.369" Master="8">
+					<Text>userID: varchar(30)</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.281250000000000</PinX>
+						<PinY Unit="IN_F">16.225719698757601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="370" UniqueID="{03F1F8BC-2CBB-444D-A1B2-D5563EF0BB3B}" Name="Sheet.370" NameU="Sheet.370">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">16.225719698757601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="371" UniqueID="{89C492A6-6E79-4128-878E-A9AD78AB4D53}" Name="Sheet.371" NameU="Sheet.371">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">16.225719698757601</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="372" UniqueID="{4C53D996-536F-4C39-A3B1-5FC9CA475DDA}" Name="Primary Key Separator.372" NameU="Primary Key Separator.372" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">20.281250000000000</PinX>
+						<PinY Unit="IN_F">16.031250000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="373" UniqueID="{E6300808-B999-4CE8-B50D-C11E46BB9C7D}" Name="Attribute.373" NameU="Attribute.373" Master="10">
+					<Text>passwordHash: varchar(40) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">20.281250000000000</PinX>
+						<PinY Unit="IN_F">15.836780301242410</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="374" UniqueID="{22ECA001-4644-41EF-B6BF-D0F8F078A3B6}" Name="Sheet.374" NameU="Sheet.374">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">15.836780301242410</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="375" UniqueID="{72B109B5-1C73-42CE-B97A-78B380DFB81E}" Name="Sheet.375" NameU="Sheet.375">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">15.836780301242410</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="379" UniqueID="{D986D576-A5C2-43E4-93BE-5A2498F5C2CA}" Name="Entity.379" NameU="Entity.379" Master="7">
+					<Text>USER_SALT</Text>
+					<XForm>
+						<PinX Unit="IN_F">19.843750000000000</PinX>
+						<PinY Unit="IN_F">14.673560602484789</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="382" UniqueID="{5BD0A882-BB49-4373-8A1A-747772CB4F0D}" Name="Sheet.382" NameU="Sheet.382">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">19.843750000000000</PinX>
+						<PinY Unit="IN_F">15.281249999999982</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="383" UniqueID="{5CC7E806-7E82-4DC3-9767-E278EBAAB364}" Name="Primary Key Attribute.383" NameU="Primary Key Attribute.383" Master="8">
+					<Text>userID: varchar(30)</Text>
+					<XForm>
+						<PinX Unit="IN_F">19.843750000000000</PinX>
+						<PinY Unit="IN_F">14.649280301242390</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="384" UniqueID="{E1BEC5FA-DB43-4A70-90B4-205773831519}" Name="Sheet.384" NameU="Sheet.384">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">14.649280301242390</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="385" UniqueID="{96573E6E-B131-404D-A90A-DDD32DCB6654}" Name="Sheet.385" NameU="Sheet.385">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">14.649280301242390</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="386" UniqueID="{A15DBF9E-AAC1-42C1-AEEA-27D13D18ABA7}" Name="Primary Key Separator.386" NameU="Primary Key Separator.386" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">19.843750000000000</PinX>
+						<PinY Unit="IN_F">14.454810602484789</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="387" UniqueID="{B587BE53-F40D-4E0B-9FDF-D6EFC4758AB0}" Name="Attribute.387" NameU="Attribute.387" Master="10">
+					<Text>salt: varchar(40) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">19.843750000000000</PinX>
+						<PinY Unit="IN_F">14.260340903727188</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="388" UniqueID="{69621187-E357-4A99-98BD-05CB439EC3AA}" Name="Sheet.388" NameU="Sheet.388">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">18.718750000000000</PinX>
+						<PinY Unit="IN_F">14.260340903727188</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="389" UniqueID="{88B3CC39-4FC8-4FC6-AAD4-ADAFA08EECE0}" Name="Sheet.389" NameU="Sheet.389">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">18.829750000000001</PinX>
+						<PinY Unit="IN_F">14.260340903727188</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="393" UniqueID="{AAB67E62-7853-4EE7-8255-F9BB302B0FDF}" Name="Relationship.393" NameU="Relationship.393" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">21.312500000000000</PinX>
+						<PinY Unit="IN_F">16.769450782606022</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="394" UniqueID="{49B1E8D5-F366-47F7-976A-AEA9A25B2986}" Name="Sheet.394" NameU="Sheet.394">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">21.763690792559544</PinX>
+						<PinY Unit="IN">18.960331942088303</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="395" UniqueID="{0057D793-69A4-46C2-8D23-DC17ABB1673C}" Name="Sheet.395" NameU="Sheet.395">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">21.763690792559537</PinX>
+						<PinY Unit="IN">18.818910585850993</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="396" UniqueID="{58F1F5AC-182A-413B-BCAD-16FAA25343E2}" Name="Sheet.396" NameU="Sheet.396">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">21.201190792559540</PinX>
+						<PinY Unit="IN">14.578569623123736</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="397" UniqueID="{35787E7C-405F-4E69-90BD-AB1D8C08504E}" Name="Sheet.397" NameU="Sheet.397">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">21.201190792559540</PinX>
+						<PinY Unit="IN">14.719990979361045</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="399" UniqueID="{94F5D266-E7F1-44CD-89A4-B80116AFEE6A}" Name="Relationship.399" NameU="Relationship.399" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">21.750000000000000</PinX>
+						<PinY Unit="IN_F">17.557670481363630</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="400" UniqueID="{F0A491E1-4F5E-44BE-BA7D-AE8933B24ECC}" Name="Sheet.400" NameU="Sheet.400">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">21.726919201596832</PinX>
+						<PinY Unit="IN">18.960331942088317</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="401" UniqueID="{AC954254-8312-431F-8DAB-434CF55BABC8}" Name="Sheet.401" NameU="Sheet.401">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">21.726919201596832</PinX>
+						<PinY Unit="IN">18.818910585851008</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="402" UniqueID="{89A1756C-54AF-487D-BB8A-1AE52AB4AD15}" Name="Sheet.402" NameU="Sheet.402">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">22.039419201596825</PinX>
+						<PinY Unit="IN">16.155009020639017</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="403" UniqueID="{8703E6AB-B5EF-4BA4-8E9F-63D922C34C8B}" Name="Sheet.403" NameU="Sheet.403">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">22.039419201596825</PinX>
+						<PinY Unit="IN">16.296430376876327</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="404" UniqueID="{082E4463-00F3-4A6C-B004-507F965514BF}" Name="Relationship.404" NameU="Relationship.404" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">18.109375000000000</PinX>
+						<PinY Unit="IN_F">14.861515180121266</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="405" UniqueID="{0045B9B9-C38E-4B0F-89BB-AC35D1AD8CB0}" Name="Sheet.405" NameU="Sheet.405">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">18.448289889365896</PinX>
+						<PinY Unit="IN">18.818910585851000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="406" UniqueID="{DA12016E-629B-47D5-B7A5-B3C5E18387E5}" Name="Sheet.406" NameU="Sheet.406">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">18.448289889365896</PinX>
+						<PinY Unit="IN">18.960331942088310</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="407" UniqueID="{597CC8DF-6868-44BA-B964-F533E94C4388}" Name="Sheet.407" NameU="Sheet.407">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">17.770460110634104</PinX>
+						<PinY Unit="IN">10.762698418154223</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="408" UniqueID="{624713D1-F84E-4D46-B6C2-0B2772CBEDB7}" Name="Sheet.408" NameU="Sheet.408">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">17.770460110634104</PinX>
+						<PinY Unit="IN">10.904119774391532</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="457" UniqueID="{90AFE810-8C0B-4317-8397-18E4FCE3774B}" Name="Attribute.457" NameU="Attribute.457" Master="10">
+					<Text>rootID: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">13.812272711181631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="458" UniqueID="{6EBB6CF4-FDA6-404E-BDBB-0BB50EB9FB5A}" Name="Sheet.458" NameU="Sheet.458">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">13.812272711181631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="459" UniqueID="{01E3A180-BE4C-47F4-9E7F-4DBD981EF876}" Name="Sheet.459" NameU="Sheet.459">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">13.812272711181631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="465" UniqueID="{B3B48236-C4CE-4B60-8B4B-5B6A21EF8308}" Name="Entity.465" NameU="Entity.465" Master="7">
+					<Text>AUDIO</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">8.920037617323134</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="468" UniqueID="{FBF268DA-47CF-46AE-AF65-B49F1A56A6B2}" Name="Sheet.468" NameU="Sheet.468">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">10.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="469" UniqueID="{54EEE196-8FDF-445C-82BF-89C9BE5E67D7}" Name="Primary Key Attribute.469" NameU="Primary Key Attribute.469" Master="8">
+					<Text>audioID: serial</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">9.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="470" UniqueID="{347DA24E-6393-4331-8AEA-340E059669F7}" Name="Sheet.470" NameU="Sheet.470">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">9.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="471" UniqueID="{70D4C922-E335-4309-B172-A66B24BDDBB5}" Name="Sheet.471" NameU="Sheet.471">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">9.368030301242401</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="472" UniqueID="{DCC95C77-12E8-4EE8-925E-CF4E418B9C8A}" Name="Primary Key Separator.472" NameU="Primary Key Separator.472" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">9.173560602484812</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="473" UniqueID="{119A1AA5-BBA1-4DE9-AEF1-9571F0683CDC}" Name="Attribute.473" NameU="Attribute.473" Master="10">
+					<Text>url varchar(100) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">8.590151506212019</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="474" UniqueID="{49AE956D-985D-4B9E-A67D-413EEFB7DC37}" Name="Sheet.474" NameU="Sheet.474">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">8.590151506212019</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="475" UniqueID="{CB82B08E-9AE2-44A3-8A09-51AE84533A76}" Name="Sheet.475" NameU="Sheet.475">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">8.590151506212019</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="476" UniqueID="{A226509C-7232-4B11-824F-CE06D374D3C0}" Name="Attribute.476" NameU="Attribute.476" Master="10">
+					<Text>description: varchar(250) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">8.117878521050344</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="477" UniqueID="{B10CE6E0-644A-426C-BA0E-D6E91A18DF2D}" Name="Sheet.477" NameU="Sheet.477">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">8.117878521050344</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="478" UniqueID="{FBF30BEF-7EA7-4C6C-9539-0361DBC5DD71}" Name="Sheet.478" NameU="Sheet.478">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">8.117878521050344</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="479" UniqueID="{7189A8FA-336B-4538-AF07-25497F602656}" Name="Attribute.479" NameU="Attribute.479" Master="10">
+					<Text>audioType: varchar(20) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">8.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="480" UniqueID="{2F270BE4-451E-4BBC-B9A7-D0D526C55355}" Name="Sheet.480" NameU="Sheet.480">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">8.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="481" UniqueID="{0F278FCE-D37B-4E42-80E3-C2F736C6D0AF}" Name="Sheet.481" NameU="Sheet.481">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">8.979090903727210</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="533" UniqueID="{7B3311A8-7EBA-46E8-B1B5-7110261375B7}" Name="Entity.533" NameU="Entity.533" Master="7">
+					<Text>RULE_TYPE</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">16.229318192545527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="536" UniqueID="{EC41D607-CEAA-4EB8-A1B0-E2EE34F7D278}" Name="Sheet.536" NameU="Sheet.536">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">17.420416686333503</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="537" UniqueID="{DB53B8A5-22FB-4774-ACBB-2BFB203E51D4}" Name="Primary Key Attribute.537" NameU="Primary Key Attribute.537" Master="8">
+					<Text>ruleType: varchar(40) </Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">16.788446987575888</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="538" UniqueID="{DD0D9F1D-E5A1-41CD-9379-BA341F21DEA6}" Name="Sheet.538" NameU="Sheet.538">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">16.788446987575888</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="539" UniqueID="{00B54EA9-73C4-4F02-BB59-DA38EA93F34A}" Name="Sheet.539" NameU="Sheet.539">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">16.788446987575888</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="540" UniqueID="{78496386-6E72-4DC2-AD06-38BEBD5CD412}" Name="Primary Key Separator.540" NameU="Primary Key Separator.540" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">16.205037891303103</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="552" UniqueID="{87F2FFF2-E0C3-4CD6-9571-0C5EEAF02A01}" Name="Entity.552" NameU="Entity.552" Master="7">
+					<Text>RULE_SUB_TYPE</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.093750000000000</PinX>
+						<PinY Unit="IN_F">13.847121204969596</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="555" UniqueID="{1A3DAFAA-2904-4090-87AB-C7C1117C080F}" Name="Sheet.555" NameU="Sheet.555">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.093750000000000</PinX>
+						<PinY Unit="IN_F">14.454810602484789</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="556" UniqueID="{E71A1F78-E645-4C69-9FE4-85030913656C}" Name="Primary Key Attribute.556" NameU="Primary Key Attribute.556" Master="8">
+					<Text>ruleType: varchar(40) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.093750000000000</PinX>
+						<PinY Unit="IN_F">13.822840903727181</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="557" UniqueID="{50205109-9A25-4BAE-8213-E37ABBAD640B}" Name="Sheet.557" NameU="Sheet.557">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">13.822840903727181</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="558" UniqueID="{2327306A-1C80-4D80-8922-EB8091EB7702}" Name="Sheet.558" NameU="Sheet.558">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">13.822840903727181</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="559" UniqueID="{4CFDCC7C-A28C-4989-B1FC-C665372937EF}" Name="Primary Key Separator.559" NameU="Primary Key Separator.559" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">16.093750000000000</PinX>
+						<PinY Unit="IN_F">13.628371204969580</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="560" UniqueID="{53A4655C-0220-446C-9B3E-26DA49F14451}" Name="Attribute.560" NameU="Attribute.560" Master="10">
+					<Text>ruleSubType: varchar(250) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">16.093750000000000</PinX>
+						<PinY Unit="IN_F">13.433901506211987</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="561" UniqueID="{2CD62C8E-051A-4AA0-9742-B823C3EF202A}" Name="Sheet.561" NameU="Sheet.561">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">13.433901506211987</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="562" UniqueID="{2CFA1BC0-1CFA-4DA6-87D2-C4AF33FC3ABA}" Name="Sheet.562" NameU="Sheet.562">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">13.433901506211987</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="576" UniqueID="{64B255C3-EBC7-473D-BA1D-B08C1C512508}" Name="Relationship.576" NameU="Relationship.576" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">14.500000000000000</PinX>
+						<PinY Unit="IN_F">14.005397740681978</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="577" UniqueID="{26EF17C0-C722-4BBA-A280-AE9F44B7ED99}" Name="Sheet.577" NameU="Sheet.577">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">14.323922844474531</PinX>
+						<PinY Unit="IN">16.717736309457234</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="578" UniqueID="{EBBDC28B-FC77-4B45-93CB-FBAEDA17109B}" Name="Sheet.578" NameU="Sheet.578">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">14.323922844474534</PinX>
+						<PinY Unit="IN">16.859157665694543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="579" UniqueID="{462CF9E7-B4A4-4173-B51E-DC7266048001}" Name="Sheet.579" NameU="Sheet.579">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">14.323922844474525</PinX>
+						<PinY Unit="IN">11.293059171906723</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="580" UniqueID="{0436CF02-5584-411C-BF18-F959C7942CBA}" Name="Sheet.580" NameU="Sheet.580">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">14.323922844474525</PinX>
+						<PinY Unit="IN">11.151637815669414</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="607" UniqueID="{79F99961-B18F-4419-825B-57C59A7DE142}" Name="Attribute.607" NameU="Attribute.607" Master="10">
+					<Text>sigma1: smallint</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">17.447840903727208</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="608" UniqueID="{790F331A-4AAD-4FFC-8E5B-0696F8D58E81}" Name="Sheet.608" NameU="Sheet.608">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">17.447840903727208</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="609" UniqueID="{429535B9-ED65-486F-B66B-1E9BAB6EE83C}" Name="Sheet.609" NameU="Sheet.609">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">17.447840903727208</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="610" UniqueID="{5DB03D64-6CF2-428A-AA98-8C5747D31515}" Name="Attribute.610" NameU="Attribute.610" Master="10">
+					<Text>sigma1: smallint</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.546875000000005</PinX>
+						<PinY Unit="IN_F">17.058901506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="611" UniqueID="{295B1836-2F61-49B0-97FF-89379A2F1D7F}" Name="Sheet.611" NameU="Sheet.611">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.218750000000005</PinX>
+						<PinY Unit="IN_F">17.058901506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="612" UniqueID="{01122272-1F18-4272-A902-4129AA067E4B}" Name="Sheet.612" NameU="Sheet.612">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.329750000000005</PinX>
+						<PinY Unit="IN_F">17.058901506212020</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="613" UniqueID="{82EE3A31-653B-43C8-A7D8-E8346028C9D4}" Name="Attribute.613" NameU="Attribute.613" Master="10">
+					<Text>pos: varchar(24)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">13.423333313666442</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="614" UniqueID="{D0400432-2CA9-4085-9E2A-E9704EFB44E9}" Name="Sheet.614" NameU="Sheet.614">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">13.423333313666442</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="615" UniqueID="{1285C50E-B935-4559-9AEF-C2872DD092CA}" Name="Sheet.615" NameU="Sheet.615">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">13.423333313666442</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="616" UniqueID="{80B8B6F9-B4CB-42F5-AC94-CF482C27C919}" Name="Attribute.616" NameU="Attribute.616" Master="10">
+					<Text>subPos: varchar(100)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">13.034393916151251</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="617" UniqueID="{C23F4773-79A4-4C39-AB63-3428C6F57004}" Name="Sheet.617" NameU="Sheet.617">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">13.034393916151251</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="618" UniqueID="{19B33714-183D-412B-A12A-4786EE3D43E7}" Name="Sheet.618" NameU="Sheet.618">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">13.034393916151251</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="619" UniqueID="{57BD1B68-0BD1-41EB-AB31-D867EA8A8C05}" Name="Attribute.619" NameU="Attribute.619" Master="10">
+					<Text>numOfSyllables: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">12.645454518636058</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="620" UniqueID="{AEF755FA-3E10-4834-B4D8-E30DF9223A89}" Name="Sheet.620" NameU="Sheet.620">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">12.645454518636058</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="621" UniqueID="{3ADC8A7A-6FF6-4A8B-B62A-04BA73DA8E90}" Name="Sheet.621" NameU="Sheet.621">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">12.645454518636058</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="622" UniqueID="{5F863E3D-9233-4FDB-AFE8-B6BFAC9E6327}" Name="Attribute.622" NameU="Attribute.622" Master="10">
+					<Text>sigma1: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">12.256515121120865</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="623" UniqueID="{6A88D982-D72D-47BA-82CC-43BDD43F4CCE}" Name="Sheet.623" NameU="Sheet.623">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">12.256515121120865</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="624" UniqueID="{BC7CD668-FE4F-4F14-9AE8-3DC5C85F26C7}" Name="Sheet.624" NameU="Sheet.624">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">12.256515121120865</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="625" UniqueID="{DE1EB8AD-28EB-4A5E-A32D-4E818FAD25F4}" Name="Attribute.625" NameU="Attribute.625" Master="10">
+					<Text>sigma2: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">11.867575723605672</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="626" UniqueID="{259A0520-A808-4913-A438-58A538D7BC1A}" Name="Sheet.626" NameU="Sheet.626">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">11.867575723605672</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="627" UniqueID="{8B124031-4130-417E-815F-82F3FEC54A19}" Name="Sheet.627" NameU="Sheet.627">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">11.867575723605672</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="628" UniqueID="{B6F0A5E2-1F4B-41A6-A812-ADF5B8499A12}" Name="Attribute.628" NameU="Attribute.628" Master="10">
+					<Text>initialSound: varchar(2)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">11.478636326090479</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="629" UniqueID="{FBA2386D-9B05-4E1C-9233-50F929527D29}" Name="Sheet.629" NameU="Sheet.629">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">11.478636326090479</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="630" UniqueID="{4BD22B04-C780-447E-B119-E77E6BCABD8D}" Name="Sheet.630" NameU="Sheet.630">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">11.478636326090479</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="631" UniqueID="{4B84235C-C64A-4C50-B38C-A94E5C72A8B5}" Name="Attribute.631" NameU="Attribute.631" Master="10">
+					<Text>gloss: varchar(500)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">11.089696928575288</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="632" UniqueID="{2C18D044-4F7B-435F-A9FC-371B2BC78834}" Name="Sheet.632" NameU="Sheet.632">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">11.089696928575288</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="633" UniqueID="{C8C489F3-519C-4C3C-9653-A9298B194385}" Name="Sheet.633" NameU="Sheet.633">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">11.089696928575288</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="634" UniqueID="{F35221E1-7F84-4629-BAE3-0BDEC43D2A31}" Name="Attribute.634" NameU="Attribute.634" Master="10">
+					<Text>tonalPattern: varchar(128)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">10.700757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="635" UniqueID="{064F7D08-F4F6-485F-AEE7-D5A13287A159}" Name="Sheet.635" NameU="Sheet.635">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">10.700757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="636" UniqueID="{CF27BC00-AE26-4148-909F-653BD6A98505}" Name="Sheet.636" NameU="Sheet.636">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">10.700757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="637" UniqueID="{97922B6C-0C6E-4B42-9380-87DFE46172D4}" Name="Relationship.637" NameU="Relationship.637" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.500000000000000</PinX>
+						<PinY Unit="IN_F">15.281022711181645</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="638" UniqueID="{6A4C00D6-D18D-4104-BC8F-B628AF6D314A}" Name="Sheet.638" NameU="Sheet.638">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">9.770217730328607</PinX>
+						<PinY Unit="IN">19.012698418154155</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="639" UniqueID="{31970F0E-C1D9-437D-9A00-4426CA8E9ED8}" Name="Sheet.639" NameU="Sheet.639">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">9.770217730328607</PinX>
+						<PinY Unit="IN">19.154119774391464</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="640" UniqueID="{44ABE327-F5C9-49AC-8451-0368032D2E0C}" Name="Sheet.640" NameU="Sheet.640">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">7.229782269671386</PinX>
+						<PinY Unit="IN">11.407925647971824</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="641" UniqueID="{833EA168-04E7-4227-81D1-CB3DA86AA836}" Name="Sheet.641" NameU="Sheet.641">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">7.229782269671386</PinX>
+						<PinY Unit="IN">11.549347004209134</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="642" UniqueID="{BE84F986-7ED7-4131-86A5-F54FDD49C377}" Name="Primary Key Attribute.642" NameU="Primary Key Attribute.642" Master="8">
+					<Text>description: varchar(100)</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">16.399507590060697</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="643" UniqueID="{E9AC90F5-53C9-42F8-A3BD-726CDDC78667}" Name="Sheet.643" NameU="Sheet.643">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">16.399507590060697</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="644" UniqueID="{14649466-2C34-42DA-A491-5A290DD66BC7}" Name="Sheet.644" NameU="Sheet.644">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">16.399507590060697</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="645" UniqueID="{B82265B2-6CE5-41D1-8F92-AE7AE480119A}" Name="Attribute.645" NameU="Attribute.645" Master="10">
+					<Text>notation: varchar(250)</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">16.010568192545506</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="646" UniqueID="{255A87E5-E46D-40C2-8D8A-1B5523FDB900}" Name="Sheet.646" NameU="Sheet.646">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">16.010568192545506</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="647" UniqueID="{1686916E-0F73-4A45-86A8-B3223009C92E}" Name="Sheet.647" NameU="Sheet.647">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">16.010568192545506</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="648" UniqueID="{D19DF98B-E502-4631-9BC7-2E3F68CAD91C}" Name="Attribute.648" NameU="Attribute.648" Master="10">
+					<Text>segmental: boolean</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">15.621628795030315</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="649" UniqueID="{1BD76858-99E6-4EF6-8606-22505C0B5024}" Name="Sheet.649" NameU="Sheet.649">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">15.621628795030315</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="650" UniqueID="{699AD8C5-7A50-4716-9513-D811ECDAB20E}" Name="Sheet.650" NameU="Sheet.650">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">15.621628795030315</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="651" UniqueID="{3ACFB4A8-51DB-4FB3-8E73-C3F5F0D2C50E}" Name="Attribute.651" NameU="Attribute.651" Master="10">
+					<Text>tonal: boolean</Text>
+					<XForm>
+						<PinX Unit="IN_F">15.750000000000000</PinX>
+						<PinY Unit="IN_F">15.232689397515124</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="652" UniqueID="{75DEAC40-7C33-46D0-88F9-674845A93297}" Name="Sheet.652" NameU="Sheet.652">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">14.562500000000000</PinX>
+						<PinY Unit="IN_F">15.232689397515124</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="653" UniqueID="{09AD37E8-8634-4341-B91D-47F6577ED380}" Name="Sheet.653" NameU="Sheet.653">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">14.673500000000001</PinX>
+						<PinY Unit="IN_F">15.232689397515124</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="654" UniqueID="{99AE391F-01E0-40D8-AB12-4D94DBCC3236}" Name="Relationship.654" NameU="Relationship.654" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">12.578125000000000</PinX>
+						<PinY Unit="IN_F">16.253371204969628</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="655" UniqueID="{965FEF82-A29C-4262-AA0F-A9D80469546B}" Name="Sheet.655" NameU="Sheet.655">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">12.829205564857755</PinX>
+						<PinY Unit="IN">19.154119774391464</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="656" UniqueID="{3F0029B4-0A05-4D19-A83C-3D97C73B9409}" Name="Sheet.656" NameU="Sheet.656">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">12.829205564857755</PinX>
+						<PinY Unit="IN">19.012698418154155</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="657" UniqueID="{430E10B4-62E9-4777-9207-446A1B9BA5B5}" Name="Sheet.657" NameU="Sheet.657">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">12.672955564857752</PinX>
+						<PinY Unit="IN">13.352622635547794</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="658" UniqueID="{FA50B53C-A2F6-4840-B5D7-FCB05FB46FAF}" Name="Sheet.658" NameU="Sheet.658">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">12.672955564857752</PinX>
+						<PinY Unit="IN">13.494043991785103</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="659" UniqueID="{61027483-5517-447C-B15A-03E312596A7D}" Name="Relationship.659" NameU="Relationship.659" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">12.578125000000000</PinX>
+						<PinY Unit="IN_F">16.058901506212035</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="660" UniqueID="{58E44C71-68FC-4D15-AFE8-7A3F21A61129}" Name="Sheet.660" NameU="Sheet.660">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">12.835039655820481</PinX>
+						<PinY Unit="IN">19.154119774391464</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="661" UniqueID="{D8C83C5D-8865-4F24-95C1-128B636C9E68}" Name="Sheet.661" NameU="Sheet.661">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">12.835039655820481</PinX>
+						<PinY Unit="IN">19.012698418154155</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="662" UniqueID="{D81CA727-6631-4CA8-9876-214839146DF8}" Name="Sheet.662" NameU="Sheet.662">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">12.678789655820475</PinX>
+						<PinY Unit="IN">12.963683238032603</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="663" UniqueID="{59521FB7-A8EA-422E-8CB3-D5C0950A75B4}" Name="Sheet.663" NameU="Sheet.663">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">12.678789655820475</PinX>
+						<PinY Unit="IN">13.105104594269912</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="664" UniqueID="{915CDC9B-E6DF-4461-AA57-1D99E080FBD8}" Name="Relationship.664" NameU="Relationship.664" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">13.500000000000000</PinX>
+						<PinY Unit="IN_F">15.494829548136359</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="665" UniqueID="{7B247612-32CE-4C8E-A718-045DB3680003}" Name="Sheet.665" NameU="Sheet.665">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">12.639519201301837</PinX>
+						<PinY Unit="IN">14.271922786815484</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="666" UniqueID="{67ED1AD4-0A00-4694-BDF9-B4F6049EC7D3}" Name="Sheet.666" NameU="Sheet.666">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">12.639519201301837</PinX>
+						<PinY Unit="IN">14.130501430578175</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="667" UniqueID="{394435CB-0B66-4C01-9294-EE59C3B01DA5}" Name="Sheet.667" NameU="Sheet.667">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">14.360480798698156</PinX>
+						<PinY Unit="IN">16.859157665694543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="668" UniqueID="{B99A8228-DD6A-4E2E-AF6B-3C638F7FC115}" Name="Sheet.668" NameU="Sheet.668">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">14.360480798698156</PinX>
+						<PinY Unit="IN">16.717736309457234</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="669" UniqueID="{7FE751BB-BAF0-4049-AF4F-073665BF7379}" Name="Relationship.669" NameU="Relationship.669" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.500000000000000</PinX>
+						<PinY Unit="IN_F">14.784621204969618</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="670" UniqueID="{95DCE7B4-E8DD-483D-99BE-E02A84EB6A41}" Name="Sheet.670" NameU="Sheet.670">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.121544769081381</PinX>
+						<PinY Unit="IN">14.660862184330675</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="671" UniqueID="{C77F674E-B098-4925-BC77-61B7A7CEAA0F}" Name="Sheet.671" NameU="Sheet.671">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.121544769081381</PinX>
+						<PinY Unit="IN">14.519440828093366</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="672" UniqueID="{F9E90418-8FAD-40A6-83F7-D017DE2F807C}" Name="Sheet.672" NameU="Sheet.672">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.878455230918615</PinX>
+						<PinY Unit="IN">15.049801581845863</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="673" UniqueID="{64BD0A5A-1AA9-4278-93B1-313CBA950A36}" Name="Sheet.673" NameU="Sheet.673">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.878455230918620</PinX>
+						<PinY Unit="IN">14.908380225608555</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="679" UniqueID="{1BE9BA5F-0BBE-4074-BF49-B02B8990E1BD}" Name="Relationship.679" NameU="Relationship.679" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.500000000000000</PinX>
+						<PinY Unit="IN_F">14.590151506212022</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="680" UniqueID="{8942CE22-B144-46C6-953A-D422028E8E47}" Name="Sheet.680" NameU="Sheet.680">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.127378860044109</PinX>
+						<PinY Unit="IN">14.271922786815486</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="681" UniqueID="{7671AF50-8050-4D06-B967-E744CAF3C8AA}" Name="Sheet.681" NameU="Sheet.681">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.127378860044109</PinX>
+						<PinY Unit="IN">14.130501430578176</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="682" UniqueID="{B1E5837E-947E-4B04-84E3-BC2290BF7573}" Name="Sheet.682" NameU="Sheet.682">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.872621139955893</PinX>
+						<PinY Unit="IN">15.049801581845868</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="683" UniqueID="{07E8495C-101F-423B-843B-51FCFF862568}" Name="Sheet.683" NameU="Sheet.683">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.872621139955893</PinX>
+						<PinY Unit="IN">14.908380225608559</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="698" UniqueID="{93126CEC-BD0D-4843-9AF2-EEC3E96B8229}" Name="Entity.698" NameU="Entity.698" Master="7">
+					<Text>PHRASAL_DATA</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">6.503143916151251</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="701" UniqueID="{ACDDB23B-E56E-480B-8337-1D61E5A9E8F3}" Name="Sheet.701" NameU="Sheet.701">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">9.249999999999993</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="702" UniqueID="{13AA5750-1AAA-4C5D-932F-615136DF4601}" Name="Primary Key Attribute.702" NameU="Primary Key Attribute.702" Master="8">
+					<Text>phraseID: sequence</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">8.618030301242392</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="703" UniqueID="{3FA793C2-1894-4A8F-94E3-9A9F84C75B44}" Name="Sheet.703" NameU="Sheet.703">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">8.618030301242392</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="704" UniqueID="{8B48304A-D82E-42DB-978C-1D0972DE54AD}" Name="Sheet.704" NameU="Sheet.704">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">8.618030301242392</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="705" UniqueID="{32FB8D0F-413D-46B7-A70D-B4FDAEF806B4}" Name="Primary Key Separator.705" NameU="Primary Key Separator.705" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">8.423560602484796</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="706" UniqueID="{B2265430-CD9A-486D-8F7F-3E6CEE4A7839}" Name="Attribute.706" NameU="Attribute.706" Master="10">
+					<Text>phraseForm: varchar(100) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">8.229090903727199</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="707" UniqueID="{9E2E9F33-BCD7-4B86-8E51-D55346C3E51B}" Name="Sheet.707" NameU="Sheet.707">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">8.229090903727199</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="708" UniqueID="{E321E8E6-772A-4904-8A15-94137CF55965}" Name="Sheet.708" NameU="Sheet.708">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">8.229090903727199</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="709" UniqueID="{0003C6C9-CC38-4348-A3D6-E24E47B036A0}" Name="Attribute.709" NameU="Attribute.709" Master="10">
+					<Text>definition: text</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">7.840151506212006</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="710" UniqueID="{66097585-46EE-41F9-858B-0865859DEE36}" Name="Sheet.710" NameU="Sheet.710">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">7.840151506212006</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="711" UniqueID="{5E34F2E1-25DC-4923-8FA7-C3DB18241FE8}" Name="Sheet.711" NameU="Sheet.711">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">7.840151506212006</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="712" UniqueID="{C0370F8A-9BFE-431D-85B0-48B24C791B4F}" Name="Attribute.712" NameU="Attribute.712" Master="10">
+					<Text>noun1: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">7.451212108696813</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="713" UniqueID="{C86726C2-B51F-4096-BF9C-84584FBDF963}" Name="Sheet.713" NameU="Sheet.713">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">7.451212108696813</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="714" UniqueID="{9B9F9D9C-629F-4096-AE7B-532CFA0E9546}" Name="Sheet.714" NameU="Sheet.714">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">7.451212108696813</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="715" UniqueID="{80959957-F8DA-4298-839C-70DD8EFA1012}" Name="Attribute.715" NameU="Attribute.715" Master="10">
+					<Text>noun2: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">7.062272711181622</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="716" UniqueID="{74A70E2A-DF22-4F38-B4B7-B98B8B9F7983}" Name="Sheet.716" NameU="Sheet.716">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">7.062272711181622</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="717" UniqueID="{3BD33989-1D9C-4161-81D6-FDCE2D9DDE0C}" Name="Sheet.717" NameU="Sheet.717">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">7.062272711181622</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="718" UniqueID="{FC767FE7-17F9-44C4-82C2-6766DDD6BA23}" Name="Attribute.718" NameU="Attribute.718" Master="10">
+					<Text>noun3: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">6.673333313666429</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="719" UniqueID="{049F7141-2D9A-4B5F-AC84-710DA4AD7569}" Name="Sheet.719" NameU="Sheet.719">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">6.673333313666429</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="720" UniqueID="{80965268-2691-4971-95CB-B2ABC582E643}" Name="Sheet.720" NameU="Sheet.720">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">6.673333313666429</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="721" UniqueID="{3B0E44B0-4BDE-47A4-A5D4-7EF4D75B892F}" Name="Attribute.721" NameU="Attribute.721" Master="10">
+					<Text>verb1: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">6.284393916151240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="722" UniqueID="{63D3C6EC-2CE9-426D-BF76-856ECC9240A4}" Name="Sheet.722" NameU="Sheet.722">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">6.284393916151240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="723" UniqueID="{D2979927-49CA-4981-BC8E-602EE008952B}" Name="Sheet.723" NameU="Sheet.723">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">6.284393916151240</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="724" UniqueID="{EF30C8C5-6385-402E-88A4-BCFD8D849349}" Name="Attribute.724" NameU="Attribute.724" Master="10">
+					<Text>verb2: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">5.895454518636049</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="725" UniqueID="{A5BF3C23-65D7-4D76-8230-22580688A4ED}" Name="Sheet.725" NameU="Sheet.725">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">5.895454518636049</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="726" UniqueID="{63DCF758-3C2E-420D-ADC8-D5C7809831E5}" Name="Sheet.726" NameU="Sheet.726">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">5.895454518636049</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="727" UniqueID="{63B58CFE-3B5D-4136-9AE5-9F7578B84C35}" Name="Attribute.727" NameU="Attribute.727" Master="10">
+					<Text>verb3: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">5.506515121120858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="728" UniqueID="{A698B2BF-3090-432D-ABCC-AEEB4C899A3F}" Name="Sheet.728" NameU="Sheet.728">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">5.506515121120858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="729" UniqueID="{953C197F-F3DA-44E2-B0B2-866197E74629}" Name="Sheet.729" NameU="Sheet.729">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">5.506515121120858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="730" UniqueID="{8B1DDD54-9BEC-4145-9E59-006332B70D91}" Name="Attribute.730" NameU="Attribute.730" Master="10">
+					<Text>numModifiers: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">5.117575723605667</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="731" UniqueID="{AE27EA75-3964-402D-80C4-C21AD2D73F91}" Name="Sheet.731" NameU="Sheet.731">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">5.117575723605667</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="732" UniqueID="{0CA8C3CB-1631-4233-B2C3-DBEA9A384ADF}" Name="Sheet.732" NameU="Sheet.732">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">5.117575723605667</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="733" UniqueID="{BC555655-9072-4291-ACD8-8167CED8840D}" Name="Attribute.733" NameU="Attribute.733" Master="10">
+					<Text>modifier1: varchar(20)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">4.728636326090475</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="734" UniqueID="{6A5EA0EE-F3AE-49A1-9EC8-066B66CA8D1B}" Name="Sheet.734" NameU="Sheet.734">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">4.728636326090475</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="735" UniqueID="{F54520E4-73DC-410A-B8C8-43B22EC61894}" Name="Sheet.735" NameU="Sheet.735">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">4.728636326090475</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="736" UniqueID="{255F5A2F-74EE-48C8-BAFD-F5334CC19552}" Name="Attribute.736" NameU="Attribute.736" Master="10">
+					<Text>modifier2: varchar(20)</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">4.339696928575286</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="737" UniqueID="{A85CDDF8-0F34-4131-B33B-2FD02E8F6FB0}" Name="Sheet.737" NameU="Sheet.737">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">4.339696928575286</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="738" UniqueID="{E183963D-2EB7-43D0-A714-8D2FEA9B9EC9}" Name="Sheet.738" NameU="Sheet.738">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">4.339696928575286</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="739" UniqueID="{F2A8D076-3937-4CE4-9F2A-8CEE25911ACE}" Name="Attribute.739" NameU="Attribute.739" Master="10">
+					<Text>audioID</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.476562500000000</PinX>
+						<PinY Unit="IN_F">3.950757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="740" UniqueID="{1F9AB3CB-DF84-4A93-A378-C821FAF0F4AB}" Name="Sheet.740" NameU="Sheet.740">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">4.015625000000000</PinX>
+						<PinY Unit="IN_F">3.950757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="741" UniqueID="{83044B28-C03D-4D21-BC60-0C82B9F1DC3A}" Name="Sheet.741" NameU="Sheet.741">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">4.126625000000000</PinX>
+						<PinY Unit="IN_F">3.950757531060095</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="742" UniqueID="{668D1B96-E7BA-471E-802F-E9158F1B9B17}" Name="Relationship.742" NameU="Relationship.742" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">11.409621204969607</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="743" UniqueID="{EA6804DD-0F01-483F-9F8F-139485C70B29}" Name="Sheet.743" NameU="Sheet.743">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.574208923993165</PinX>
+						<PinY Unit="IN">15.297319623123744</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="744" UniqueID="{A71ADCD4-314C-4CC8-BF71-F95F3B8A0711}" Name="Sheet.744" NameU="Sheet.744">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.574208923993163</PinX>
+						<PinY Unit="IN">15.438740979361055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="745" UniqueID="{E7360207-64CD-46A5-9BE4-5B792EA8EDD3}" Name="Sheet.745" NameU="Sheet.745">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.746083923993159</PinX>
+						<PinY Unit="IN">7.521922786815468</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="746" UniqueID="{555A9620-EBA7-4F93-A3F2-76547E9C69D3}" Name="Sheet.746" NameU="Sheet.746">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.746083923993159</PinX>
+						<PinY Unit="IN">7.380501430578159</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="747" UniqueID="{E55BB750-AB20-46CD-A4FA-A459B9F2FBBB}" Name="Relationship.747" NameU="Relationship.747" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">11.215151506212012</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="748" UniqueID="{8B6C667C-C5C1-4FE3-A546-AE91A2DDC234}" Name="Sheet.748" NameU="Sheet.748">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.568374833030435</PinX>
+						<PinY Unit="IN">15.297319623123746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="749" UniqueID="{AFC4654E-734E-425A-BFD4-795F96A90202}" Name="Sheet.749" NameU="Sheet.749">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.568374833030435</PinX>
+						<PinY Unit="IN">15.438740979361055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="750" UniqueID="{83C4FB13-2C76-4531-BFDF-2663A52D07E1}" Name="Sheet.750" NameU="Sheet.750">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.740249833030429</PinX>
+						<PinY Unit="IN">7.132983389300277</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="751" UniqueID="{32DECFDC-7ED3-4BFA-A018-B354D45EF5EF}" Name="Sheet.751" NameU="Sheet.751">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.740249833030429</PinX>
+						<PinY Unit="IN">6.991562033062968</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="752" UniqueID="{7F681695-A0FF-458A-BF1F-722139AA1201}" Name="Relationship.752" NameU="Relationship.752" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">11.020681807454416</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="753" UniqueID="{4A7FCC64-AC26-4C7F-9E18-FC24D6ABEC09}" Name="Sheet.753" NameU="Sheet.753">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.562540742067710</PinX>
+						<PinY Unit="IN">15.297319623123748</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="754" UniqueID="{60A7F0D6-A0C1-403E-BBB6-E49C3826D06D}" Name="Sheet.754" NameU="Sheet.754">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.562540742067712</PinX>
+						<PinY Unit="IN">15.438740979361059</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="755" UniqueID="{4514296A-73F0-4B3E-A589-0F4F6CFB2953}" Name="Sheet.755" NameU="Sheet.755">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.734415742067703</PinX>
+						<PinY Unit="IN">6.744043991785084</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="756" UniqueID="{BB8B160A-EB12-416C-9007-57B16CF5DB8E}" Name="Sheet.756" NameU="Sheet.756">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.734415742067703</PinX>
+						<PinY Unit="IN">6.602622635547775</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="757" UniqueID="{845A10BF-4416-4C71-A6E1-166661D37F24}" Name="Relationship.757" NameU="Relationship.757" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">10.826212108696820</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="758" UniqueID="{41CB3051-4458-4BED-8F7B-EFDD35A69D0B}" Name="Sheet.758" NameU="Sheet.758">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.556706651104981</PinX>
+						<PinY Unit="IN">15.297319623123746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="759" UniqueID="{8FDC3344-0BC6-4C17-ADF9-34A0B9F0B012}" Name="Sheet.759" NameU="Sheet.759">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.556706651104981</PinX>
+						<PinY Unit="IN">15.438740979361055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="760" UniqueID="{F4DD5C8D-F924-41D9-8647-E72CA998D24C}" Name="Sheet.760" NameU="Sheet.760">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.728581651104967</PinX>
+						<PinY Unit="IN">6.355104594269895</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="761" UniqueID="{5C1F196C-B664-40EA-90FC-035689D36AED}" Name="Sheet.761" NameU="Sheet.761">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.728581651104967</PinX>
+						<PinY Unit="IN">6.213683238032585</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="762" UniqueID="{2B125B5D-0C26-4D35-80F3-DC9A5EA88B33}" Name="Relationship.762" NameU="Relationship.762" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">10.631742409939225</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="763" UniqueID="{92FB6BAB-684A-4E65-9679-8E92A76A0544}" Name="Sheet.763" NameU="Sheet.763">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.550872560142255</PinX>
+						<PinY Unit="IN">15.297319623123744</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="764" UniqueID="{18A7050F-76E3-4E8D-85EF-F9820E4EFD2A}" Name="Sheet.764" NameU="Sheet.764">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.550872560142253</PinX>
+						<PinY Unit="IN">15.438740979361055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="765" UniqueID="{358A3D20-E439-47BD-9857-6A08486DED8C}" Name="Sheet.765" NameU="Sheet.765">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.722747560142245</PinX>
+						<PinY Unit="IN">5.966165196754703</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="766" UniqueID="{2A0F033D-FFCF-4988-AED7-29FB6A4E35D6}" Name="Sheet.766" NameU="Sheet.766">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.722747560142245</PinX>
+						<PinY Unit="IN">5.824743840517394</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="767" UniqueID="{C95E0AA3-0E39-412B-B9DA-E123EEDECE62}" Name="Relationship.767" NameU="Relationship.767" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.867187500000000</PinX>
+						<PinY Unit="IN_F">10.437272711181629</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="768" UniqueID="{53BFD291-2B0B-4E66-9AE6-DDE45D7B6B6E}" Name="Sheet.768" NameU="Sheet.768">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.545038469179527</PinX>
+						<PinY Unit="IN">15.297319623123746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="769" UniqueID="{5F51389D-84A7-44B9-B43B-8167E0A57378}" Name="Sheet.769" NameU="Sheet.769">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.545038469179527</PinX>
+						<PinY Unit="IN">15.438740979361055</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="770" UniqueID="{0A269E7D-2C99-45CA-8051-E6B28067E536}" Name="Sheet.770" NameU="Sheet.770">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.716913469179516</PinX>
+						<PinY Unit="IN">5.577225799239512</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="771" UniqueID="{3DFF6DF5-F119-4263-8935-EE47BB3BACE1}" Name="Sheet.771" NameU="Sheet.771">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.716913469179516</PinX>
+						<PinY Unit="IN">5.435804443002203</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="786" UniqueID="{D348132A-2A49-4A44-A5E2-5D392A9E1CF2}" Name="Entity.786" NameU="Entity.786" Master="7">
+					<Text>MODIFIERS</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.125000000000000</PinX>
+						<PinY Unit="IN_F">6.871248963080513</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="789" UniqueID="{0A755957-C75B-4FBF-AADA-8224124B5C88}" Name="Sheet.789" NameU="Sheet.789">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.125000000000000</PinX>
+						<PinY Unit="IN_F">7.284468661838108</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="790" UniqueID="{B8295A6C-CA83-430A-B502-1A2578FEF50B}" Name="Primary Key Attribute.790" NameU="Primary Key Attribute.790" Master="8">
+					<Text>modifier: varchar(20)</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.125000000000000</PinX>
+						<PinY Unit="IN_F">6.652498963080513</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="791" UniqueID="{92AE9FA5-53A5-4C45-80D6-BA8F179A5607}" Name="Sheet.791" NameU="Sheet.791">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">6.652498963080513</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="792" UniqueID="{BCAEC6CE-4B63-4E25-8579-3613E930B4F3}" Name="Sheet.792" NameU="Sheet.792">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">6.652498963080513</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="793" UniqueID="{E02C7E0F-8F17-4F08-AF36-6A554D66D7F7}" Name="Primary Key Separator.793" NameU="Primary Key Separator.793" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">11.125000000000000</PinX>
+						<PinY Unit="IN_F">6.458029264322917</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="800" UniqueID="{BF70D21A-DA7A-4F04-876D-97F5EEDECF52}" Name="Relationship.800" NameU="Relationship.800" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.437500000000000</PinX>
+						<PinY Unit="IN_F">5.690567644585494</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="801" UniqueID="{D0237727-4E92-40E7-B975-7B5FA38A1DB9}" Name="Sheet.801" NameU="Sheet.801">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.142693617673503</PinX>
+						<PinY Unit="IN">4.799347004209130</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="802" UniqueID="{E4734339-DACE-45B1-A59B-80037041AC39}" Name="Sheet.802" NameU="Sheet.802">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.142693617673503</PinX>
+						<PinY Unit="IN">4.657925647971821</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="803" UniqueID="{98E55B63-B124-417B-8F28-6B50747BD02B}" Name="Sheet.803" NameU="Sheet.803">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.732306382326495</PinX>
+						<PinY Unit="IN">6.723209641199167</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="804" UniqueID="{9881F8D1-7EAF-4914-8D33-BFED6B4082FB}" Name="Sheet.804" NameU="Sheet.804">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.732306382326495</PinX>
+						<PinY Unit="IN">6.581788284961858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="805" UniqueID="{DAFA6A80-5E42-4540-87A5-AAE3ACC59C21}" Name="Relationship.805" NameU="Relationship.805" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.401508530222575</PinX>
+						<PinY Unit="IN_F">5.496097945827899</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="806" UniqueID="{BE5D771E-760A-4151-B968-F0EFA598724E}" Name="Sheet.806" NameU="Sheet.806">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.147447964542911</PinX>
+						<PinY Unit="IN">4.410407606693941</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="807" UniqueID="{DA8B5DCE-E466-4D37-A8BC-EF40D78C584D}" Name="Sheet.807" NameU="Sheet.807">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.147447964542911</PinX>
+						<PinY Unit="IN">4.268986250456631</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="808" UniqueID="{373521D5-0EF4-40F5-9EC4-FD573BEF3E74}" Name="Sheet.808" NameU="Sheet.808">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.655569095902242</PinX>
+						<PinY Unit="IN">6.723209641199167</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="809" UniqueID="{FE039D8A-3466-411D-91B7-2717BDA50863}" Name="Sheet.809" NameU="Sheet.809">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.655569095902242</PinX>
+						<PinY Unit="IN">6.581788284961858</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="810" UniqueID="{5C725DF2-BC1D-4B23-B3C2-FBAF4929AEF0}" Name="Relationship.810" NameU="Relationship.810" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">3.968750000000003</PinX>
+						<PinY Unit="IN_F">16.407935602484798</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="811" UniqueID="{9B780244-4F0A-4009-BCFA-F7F94F8CEFDA}" Name="Sheet.811" NameU="Sheet.811">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">3.593606935142260</PinX>
+						<PinY Unit="IN">13.741562033062976</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="812" UniqueID="{F210A953-E786-487E-B8FA-345326874E13}" Name="Sheet.812" NameU="Sheet.812">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">3.593606935142260</PinX>
+						<PinY Unit="IN">13.882983389300286</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="813" UniqueID="{9DC2FC22-A85C-4514-9446-59E1CF87C49A}" Name="Sheet.813" NameU="Sheet.813">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">3.968606935142256</PinX>
+						<PinY Unit="IN">19.074309171906624</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="814" UniqueID="{F629F855-2C14-42F3-A903-202B187FDDF7}" Name="Sheet.814" NameU="Sheet.814">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">3.968606935142256</PinX>
+						<PinY Unit="IN">18.932887815669314</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="815" UniqueID="{F3BDD995-F0A6-45D8-8ED4-4C72180FB98C}" Name="Relationship.815" NameU="Relationship.815" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">14.640625000000000</PinX>
+						<PinY Unit="IN_F">12.560928041924338</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="816" UniqueID="{339E6317-A6AF-4799-A58F-5CDD17BAA9C0}" Name="Sheet.816" NameU="Sheet.816">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">14.276370003511795</PinX>
+						<PinY Unit="IN">16.717736309457234</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="817" UniqueID="{9A7BF1B9-349D-4A85-86FB-A22E65B3E7CE}" Name="Sheet.817" NameU="Sheet.817">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">14.276370003511795</PinX>
+						<PinY Unit="IN">16.859157665694543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="818" UniqueID="{8C108A19-24E4-41FA-8160-A512046581C7}" Name="Sheet.818" NameU="Sheet.818">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">14.557620003511794</PinX>
+						<PinY Unit="IN">8.404119774391438</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="819" UniqueID="{37A54348-6AAC-4B15-A2BA-C7D25BE7104B}" Name="Sheet.819" NameU="Sheet.819">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">14.557620003511795</PinX>
+						<PinY Unit="IN">8.262698418154130</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="820" UniqueID="{6F6DE18E-5EF8-44B0-9D4B-2F1AC8EF3B4F}" Name="Attribute.820" NameU="Attribute.820" Master="10">
+					<Text>audioID: integer</Text>
+					<XForm>
+						<PinX Unit="IN_F">5.390625000000000</PinX>
+						<PinY Unit="IN_F">10.311818133544902</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="821" UniqueID="{6672D1F1-5983-4712-9241-27F7337988E6}" Name="Sheet.821" NameU="Sheet.821">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">3.843750000000000</PinX>
+						<PinY Unit="IN_F">10.311818133544902</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="822" UniqueID="{7544127E-C0D5-45A3-A6D6-5E224A0ED543}" Name="Sheet.822" NameU="Sheet.822">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">3.954750000000000</PinX>
+						<PinY Unit="IN_F">10.311818133544902</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="823" UniqueID="{C68EB770-0DBC-452D-914B-BB1E9E01459B}" Name="Relationship.823" NameU="Relationship.823" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.437500000000000</PinX>
+						<PinY Unit="IN_F">6.659393916151248</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="824" UniqueID="{29C101E7-B11D-4674-91FB-148F668EE65F}" Name="Sheet.824" NameU="Sheet.824">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.195094769671384</PinX>
+						<PinY Unit="IN">4.021468209178750</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="825" UniqueID="{69A1B3A0-A496-4E11-9646-A35C36852516}" Name="Sheet.825" NameU="Sheet.825">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.195094769671384</PinX>
+						<PinY Unit="IN">3.880046852941440</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="826" UniqueID="{9C62A777-7F7A-47DC-AEFA-0BB7E7A722A4}" Name="Sheet.826" NameU="Sheet.826">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.679905230328613</PinX>
+						<PinY Unit="IN">9.438740979361056</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="827" UniqueID="{87B90D83-C652-4EAC-8256-6F42355D5E60}" Name="Sheet.827" NameU="Sheet.827">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.679905230328613</PinX>
+						<PinY Unit="IN">9.297319623123746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="828" UniqueID="{A0E2716F-21A9-4D79-9B8F-42E04CA2E3C2}" Name="Relationship.828" NameU="Relationship.828" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.437500000000000</PinX>
+						<PinY Unit="IN_F">9.839924217393651</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="829" UniqueID="{F7AB677A-AB0D-470B-BC17-B0E8197FE4FB}" Name="Sheet.829" NameU="Sheet.829">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.127992495603189</PinX>
+						<PinY Unit="IN">10.382528811663557</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="830" UniqueID="{029DCB10-87E3-4046-924B-E1BCE54FD3D3}" Name="Sheet.830" NameU="Sheet.830">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.127992495603189</PinX>
+						<PinY Unit="IN">10.241107455426247</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="831" UniqueID="{58BB5667-7F18-442D-82E8-F4C358347CAA}" Name="Sheet.831" NameU="Sheet.831">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.747007504396809</PinX>
+						<PinY Unit="IN">9.438740979361056</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="832" UniqueID="{25AA1087-C6B8-466F-BC28-AC7A89530075}" Name="Sheet.832" NameU="Sheet.832">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.747007504396809</PinX>
+						<PinY Unit="IN">9.297319623123746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="833" UniqueID="{11ADAE70-731A-4469-9E24-82BFA25D4B74}" Name="Primary Key Attribute.833" NameU="Primary Key Attribute.833" Master="8">
+					<Text>attribute name</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.250000000000000</PinX>
+						<PinY Unit="IN_F">15.368030301242404</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="834" UniqueID="{84578777-D63D-40BE-A793-BE211D6C7541}" Name="Sheet.834" NameU="Sheet.834">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">10.062500000000000</PinX>
+						<PinY Unit="IN_F">15.368030301242404</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="835" UniqueID="{C413E66A-BEED-419E-8C3D-519E4F1030CC}" Name="Sheet.835" NameU="Sheet.835">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.173500000000001</PinX>
+						<PinY Unit="IN_F">15.368030301242404</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="836" UniqueID="{0AFB7979-E963-41FF-9E93-27C7495394F2}" Name="Relationship.836" NameU="Relationship.836" Master="11">
+					<XForm>
+						<PinX Unit="IN">17.343750000000000</PinX>
+						<PinY Unit="IN_F">15.305643945651536</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="837" UniqueID="{52E68EA6-F59B-46F6-B0D3-25771666B3ED}" Name="Sheet.837" NameU="Sheet.837">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">17.134882269376387</PinX>
+						<PinY Unit="IN">16.859157665694543</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="838" UniqueID="{5D77D27C-8AA2-4D3B-81FA-D3DF12254E62}" Name="Sheet.838" NameU="Sheet.838">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">17.134882269376387</PinX>
+						<PinY Unit="IN">16.717736309457234</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="839" UniqueID="{70CBB80A-ED20-46B9-8386-54AB2407ED8F}" Name="Sheet.839" NameU="Sheet.839">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">17.822382269376387</PinX>
+						<PinY Unit="IN">13.752130225608527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="840" UniqueID="{A1DEBF20-695C-4CB0-9CEC-8E75045351AF}" Name="Sheet.840" NameU="Sheet.840">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">17.822382269376387</PinX>
+						<PinY Unit="IN">13.893551581845836</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="841" UniqueID="{77F2586A-899F-4165-AAE6-FB9201F3CA50}" Name="Entity.841" NameU="Entity.841" Master="7">
+					<Text>PHRASAL_NOTES</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">4.752916627332890</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="844" UniqueID="{B5BD52C8-470F-459B-9D80-E8D89A9A788D}" Name="Sheet.844" NameU="Sheet.844">
+					<Text>Table</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">5.749545422363273</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="845" UniqueID="{4ADB9B2E-01DF-4699-B314-2D0D3BF6B51D}" Name="Primary Key Separator.845" NameU="Primary Key Separator.845" Master="9">
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">5.312045422363363</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="846" UniqueID="{33EC7DB6-8621-4A53-B5FE-2A0C580FE4E1}" Name="Attribute.846" NameU="Attribute.846" Master="10">
+					<Text>glossID: integer NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">4.728636326090577</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="847" UniqueID="{3E83A226-34E9-48CF-8FD3-E7F07D68B794}" Name="Sheet.847" NameU="Sheet.847">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">4.728636326090577</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="848" UniqueID="{8C9575BA-C8EC-403C-8D4E-4D3BB40EC936}" Name="Sheet.848" NameU="Sheet.848">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">4.728636326090577</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="849" UniqueID="{83EBF8A4-8579-4AB7-A0EA-0556F9589252}" Name="Attribute.849" NameU="Attribute.849" Master="10">
+					<Text>note: text NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">3.950757531060194</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="850" UniqueID="{15A49DC5-440B-48D3-AEAD-8437F746D0EC}" Name="Sheet.850" NameU="Sheet.850">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">3.950757531060194</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="851" UniqueID="{490A3308-7303-4B02-9345-5433521769DF}" Name="Sheet.851" NameU="Sheet.851">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">3.950757531060194</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="852" UniqueID="{4A412B03-F4B3-49D2-BB5A-4FB107E97CDD}" Name="Attribute.852" NameU="Attribute.852" Master="10">
+					<Text>userID: varchar(30) NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">4.339696928575386</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="853" UniqueID="{48A68586-942A-4DB5-871E-F341DA5DFCE7}" Name="Sheet.853" NameU="Sheet.853">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">4.339696928575386</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="854" UniqueID="{EB4CF2FE-7E99-4736-811B-FC150FB2E5CF}" Name="Sheet.854" NameU="Sheet.854">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">4.339696928575386</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="855" UniqueID="{FD7CF025-C8A2-4B46-931E-5B77FF07227B}" Name="Primary Key Attribute.855" NameU="Primary Key Attribute.855" Master="8">
+					<Text>dtTimeStamp: TIMESTAMP NOT NULL</Text>
+					<XForm>
+						<PinX Unit="IN_F">11.406250000000000</PinX>
+						<PinY Unit="IN_F">5.117575723605768</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="856" UniqueID="{C69A537E-6697-4B47-A9DB-C672CBD7D647}" Name="Sheet.856" NameU="Sheet.856">
+					<Text>PK</Text>
+					<XForm>
+						<PinX Unit="IN">9.937500000000000</PinX>
+						<PinY Unit="IN_F">5.117575723605768</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="857" UniqueID="{C2E379AE-E411-4C11-9C12-410C493F5945}" Name="Sheet.857" NameU="Sheet.857">
+					<Text>FK</Text>
+					<XForm>
+						<PinX Unit="IN">10.048500000000001</PinX>
+						<PinY Unit="IN_F">5.117575723605768</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="858" UniqueID="{4470A2A1-49BD-48C5-BA5B-90E791655B8C}" Name="Relationship.858" NameU="Relationship.858" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">8.437500000000000</PinX>
+						<PinY Unit="IN_F">6.673333313666484</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="859" UniqueID="{140A2039-2DDC-4C57-8B6A-225F3FC0CFBE}" Name="Sheet.859" NameU="Sheet.859">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">7.172176587745932</PinX>
+						<PinY Unit="IN">8.688740979361047</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="860" UniqueID="{B5B5CA21-8554-4DF8-A507-F97E7C757F47}" Name="Sheet.860" NameU="Sheet.860">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">7.172176587745932</PinX>
+						<PinY Unit="IN">8.547319623123737</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="861" UniqueID="{1EEBD722-E4C8-4CA0-8B8B-41EC7E689214}" Name="Sheet.861" NameU="Sheet.861">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">9.702823412254070</PinX>
+						<PinY Unit="IN">4.799347004209231</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="862" UniqueID="{959CAFCB-F761-4624-8EBC-A52E29C9B891}" Name="Sheet.862" NameU="Sheet.862">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">9.702823412254070</PinX>
+						<PinY Unit="IN">4.657925647971922</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="863" UniqueID="{F565A6B6-3394-4167-8502-1DBA1CF78F84}" Name="Relationship.863" NameU="Relationship.863" Master="11">
+					<XForm>
+						<PinX Unit="IN_F">15.796875000000000</PinX>
+						<PinY Unit="IN_F">11.614659096272520</PinY>
+					</XForm>
+					<LayerMem>
+						<LayerMember>0</LayerMember>
+					</LayerMem>
+				</Shape>
+				<Shape ID="864" UniqueID="{8FC28104-60F9-4F1B-A578-E2B85AF86DA7}" Name="Sheet.864" NameU="Sheet.864">
+					<Text>M1</Text>
+					<XForm>
+						<PinX Unit="IN">18.281509206850437</PinX>
+						<PinY Unit="IN">18.818910585851000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="865" UniqueID="{030EDF1E-26EB-4375-8385-2794DA93FD52}" Name="Sheet.865" NameU="Sheet.865">
+					<Text>M2</Text>
+					<XForm>
+						<PinX Unit="IN">18.281509206850437</PinX>
+						<PinY Unit="IN">18.960331942088310</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="866" UniqueID="{55F13DF6-5A1B-419E-8DD1-1755BA19790F}" Name="Sheet.866" NameU="Sheet.866">
+					<Text>M3</Text>
+					<XForm>
+						<PinX Unit="IN">13.312240793149559</PinX>
+						<PinY Unit="IN">4.268986250456731</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="867" UniqueID="{647C97D7-B6ED-4E6D-90A5-402E3BAAB9E7}" Name="Sheet.867" NameU="Sheet.867">
+					<Text>M4</Text>
+					<XForm>
+						<PinX Unit="IN">13.312240793149559</PinX>
+						<PinY Unit="IN">4.410407606694040</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

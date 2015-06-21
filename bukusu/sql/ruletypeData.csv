@@ -1,0 +1,11 @@
+ruleType,description, notation,segmental,tonal
+Glide Formation,,[+syl][+approx][+high] ? [-syl][+approx][+high]/_[+syl][+approx],TRUE,FALSE
+Nasal Deletion,,[+cons][+nasal]??/_[+cons][-voice][+strident],TRUE,FALSE
+Nasal Place Assimilation,,,TRUE,FALSE
+High Tone Insertion,,,FALSE,TRUE
+High Tone Anticipation,,,FALSE,TRUE
+Compensatory Lengthening,,V ? VV/glide formation,TRUE,FALSE
+Vowel Height Leveling,,[+syl][-high] + [+syl][-low] ? [+syl][-high][-low],TRUE,FALSE
+Voicing Asimilation,,[+cons][-voice] ? [+cons][+voice]/_[+cons][+voice],TRUE,FALSE
+Stop Formation,,[+coronal][+cons],TRUE,FALSE
+Underlying Form,,,,

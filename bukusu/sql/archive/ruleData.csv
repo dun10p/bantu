@@ -1,0 +1,2 @@
+ruleType,subType,rule,description,notation,initialLetter,sigma,sigma1,sigma2,tonal,segmental
+test rule,test,testing insert,testing insert data into rule table,blah,C,11,13,1,TRUE,FALSE

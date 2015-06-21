@@ -1,0 +1,13 @@
+The current time: 2015-05-07 12:50:10am
+POST_ctrSearch:glossary
+glosssaryValue:-βwa
+searchEnglish:
+searchBukusu:-βwa
+session_gloss:
+session_Root:-βwa
+session_wordform:-βwa
+detailsGiven checkbox
+verbPhrase1:
+verbPhrase2:
+detailsgiven_modifier1:
+detailsgiven_modifier2:

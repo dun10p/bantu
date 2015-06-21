@@ -1,0 +1,20 @@
+Form,rule, description, initialSound, followingSound, sigma, sigma1, sigma2, tonal, segmental
+omu,,noun class 1 marker,V,V,2,1,1,FALSE,TRUE
+βaβaa,Underlying Form,noun class 2,C,V,2,1,2,FALSE,TRUE
+kumu,Underlying Form,noun class 3,C,LF,2,1,1,FALSE,TRUE
+kimi,Underlying Form,noun class 4,C,LF,2,1,1,FALSE,TRUE
+sii,Underlying Form,noun class 7,C,C,1,2,0,FALSE,TRUE
+βii,Underlying Form,noun class 8,C,C,1,2,0,FALSE,TRUE
+e,Underlying Form,noun class 9,V,LF,1,2,0,FALSE,TRUE
+tʃi,Underlying Form,noun class 10,C,LF,1,2,0,FALSE,TRUE
+lii,Underlying Form,noun class 5,C,LF,1,2,0,FALSE,TRUE
+kama,Underlying Form,noun class 6,C,C,2,1,1,FALSE,TRUE
+kuu,Underlying Form,noun class 20,C,C,1,2,0,FALSE,TRUE
+kimi,Underlying Form,noun class 4,C,C,2,1,1,FALSE,TRUE
+xaa,Underlying Form,noun class 12,C,C,1,2,0,FALSE,TRUE
+βu,Underlying Form,noun class 14,C,C,1,1,0,FALSE,TRUE
+luu,Underlying Form,noun class 11,C,C,1,2,0,FALSE,TRUE
+xuu,Underlying Form,Infinitive marker,C,C,1,2,0,FALSE,TRUE
+xuxw,Glide Formation,Infinitive marker,C,V,1,1,0,FALSE,TRUE
+ee,Underlying Form,Reflexive,V,C,1,2,0,FALSE,TRUE
+ana,Underlying Form,Reciprocal,V,#,2,1,1,FALSE,TRUE

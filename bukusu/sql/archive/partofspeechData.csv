@@ -1,0 +1,41 @@
+Noun,SINGULAR
+Noun,Plural
+Noun,Possessive
+Verb,Past
+Verb,Present
+Verb,Near Future
+Noun,Diminutives
+Noun,Augmentatives
+Noun,Locatives
+Noun,Presentative (copula + N)
+Noun,N + Possessive
+Noun,1pl
+Noun,2sg
+Noun,2pl
+Noun,3sg
+Noun,N-of-N
+Noun,N + Adj
+Noun,N + Num
+Noun,N + Demonstrative
+Noun,N + Dem (proximal)
+Noun,N + Dem (distal 1)
+Noun,N + Dem (distal 2)
+Noun,N + wh-word
+Noun,Personal pronouns
+Noun,Demonstrative pronouns
+Noun,Interrogative pronouns
+Noun,Conjunction of personal pronouns
+Noun,Numerals
+Noun,Other
+Verb,Reflexive
+Verb,Near Future Negative
+Verb,Remote Future
+Verb,Immediate Past
+Verb,Recent Past
+Verb,Pronoun + TP
+Verb,Pronoun + COP + Adj
+Verb,Pronoun + *H Stative Verb
+Verb,Pronoun + *? Stative Verb
+Verb,Comparative/superlative
+Verb,Subject wh-questions
+Verb,Other

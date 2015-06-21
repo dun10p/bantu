@@ -1,0 +1,7 @@
+initialsound, initialsounddescr
+C, Consonant
+V, Vowel
+NC, Nasal Consonant
+LF, Voiceless Fricative
+H, Underlying Voiceless Glottal Fricative
+#, Word Boundary
